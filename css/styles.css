@@ -1,0 +1,189 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*========================== General styles ======================*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color: #164B55;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+ 
+.nav {
+    display: flex;
+    background-color: transparent;
+    text-decoration: none;
+}
+ul  {
+    display: flex;
+    align-items: center;
+  
+}
+.nav {
+    background-color: black;
+    width: auto;
+}
+li a:link {
+    text-decoration: none;
+    text-align: center;
+    background-color: #5CB9B9;
+    border: 1px solid rgb(127, 19, 19);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+ul > li {
+    padding-left: 40px;
+}
+
+.cart-logo > button {
+    background: none;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+/*============= main seaction styling for the home page ===========*/
+
+.home-page-photo {
+    width: auto;
+}
+.keyboard  img {
+    max-width: auto;
+}
+.products { 
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-template-rows: 1fr 0fr;
+    grid-column-gap: 1em;
+    margin: 10px 10px;
+
+}
+/*
+.keyboard:nth-child(1){
+    grid-row: 1 , 2;
+    grid-column: 1 , 2;
+}
+.keyboard:nth-child(2){
+    grid-row:  2, 3;
+    grid-column: 1 , 2;
+}
+.keyboard:nth-child(3){
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+}
+.keyboard:nth-child(4) {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+}
+.keyboard:nth-child(5){
+    grid-row: 2 / 3;
+    grid-column: 5 / 7;
+}
+.keyboard:nth-child(6){
+    grid-row: 4 , 5 ;
+    grid-column: 6 , 7;
+}*/
+
+footer {
+    border-top: 1px solid black;
+ 
+}
+button a:link {
+    text-decoration: none;
+}
+.chat-button {
+    color: #5C2751;
+    border-radius: 10px;
+    font-weight: 700;
+    float: right;
+    padding: 5px 5px;
+    margin: 10px 5px;
+}
+/*=========== styling for about us page =============*/
+footer svg {
+    margin: 10px 5px;
+}
+.social-media-about {
+   display: flex;
+   justify-content: center;
+}
+.about-imgs {
+    max-width: 100%;
+    height: auto;
+
+}
+.about-us {
+    margin: 10px 10px;
+}
+.about-us, h2, p {
+    text-align: center;
+}
+.about-us, .our-mission p  {
+    font-weight: 600;
+}
+/*=========== styling contact page ===========*/
+.insert {
+    text-align: center;
+}
+.send-us {
+    display: flex;
+    padding: 20px 60px;
+    border-radius: 80px;
+    background-color: #5C2751;
+}
