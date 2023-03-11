@@ -57,7 +57,7 @@ h2 {
 
 h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 img {
     max-width: 100%;
@@ -108,11 +108,17 @@ ul > li {
 }
 .products { 
     display: grid;
-    grid-template-columns: repeat( 4, 1fr);
-    grid-template-rows: 1fr 0fr;
-    grid-column-gap: 1em;
+    grid-template-columns: 22% 22%;
+    grid-column-gap: 10em;
+    justify-content: center;
     margin: 10px 10px;
-
+}
+.products h3 {
+    text-align: center;
+}
+.products p {
+    text-align: center;
+    font-size: 15px;
 }
 /*
 .keyboard:nth-child(1){
@@ -135,11 +141,11 @@ ul > li {
     grid-row: 2 / 3;
     grid-column: 5 / 7;
 }
-.keyboard:nth-child(6){
+.keyboard:nth-child(6){images/5th.jpg
     grid-row: 4 , 5 ;
     grid-column: 6 , 7;
-}*/
-
+}
+*/
 footer {
     border-top: 1px solid black;
  
@@ -147,8 +153,8 @@ footer {
 button a:link {
     text-decoration: none;
 }
-.chat-button {
-    color: #5C2751;
+button  {
+    background-color: #5C2751;
     border-radius: 10px;
     font-weight: 700;
     float: right;
@@ -182,8 +188,135 @@ footer svg {
     text-align: center;
 }
 .send-us {
-    display: flex;
-    padding: 20px 60px;
-    border-radius: 80px;
+    padding: 20px 50px;
+    border-radius: 60px;
     background-color: #5C2751;
 }
+ .social-media {
+    display: flex;
+    justify-content: center;
+ }
+/* TABLET STYLES: 760px to 1199px */
+/*@media screen and (min-width: 760px) {
+
+    header  {
+        width:auto;
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: flex;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    ul  {
+        display: flex;
+        align-items: center;
+      
+    }
+    .nav {
+        background-color: black;
+        width: auto;
+    }
+    li a:link {
+        text-decoration: none;
+        text-align: center;
+        background-color: #5CB9B9;
+        border: 1px solid rgb(127, 19, 19);
+        border-radius: 15px;
+        padding: 5px 10px;
+    }
+    ul > li {
+        padding-left: 40px;
+    }
+    
+    .cart-logo > button {
+        background: none;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+}
+*/
+
+
+@media screen and (min-width: 1100px) {
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: black;
+        background-color: #164B55;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 25px;
+        font-weight: 600;
+       
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color: #164B55;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    text-decoration: none;
+    background-color: rgb(55, 44, 65);
+}
+ul  li {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.products {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+.keyboard {
+    text-align: center;
+}
+/* ======== styling for contacing us secation ============= */
+.insert .fullname {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .insert textarea {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  }
+
